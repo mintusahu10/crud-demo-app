@@ -27,7 +27,7 @@ const navigate = useNavigate();
         <Components>
         <Toolbar>
         <Tab to='/'>Home</Tab>
-        <Tab to='all'> All Users</Tab>
+        <Tab to='all'> All Users by normal</Tab>
         <Tab to='add'>Add User</Tab>
         <Tab style={{color:'inherit',textDecoration:'none'}} onClick={()=>signOut()}>SignOut</Tab>
         {/* <Tab to='all'>All User by redux</Tab> */}
